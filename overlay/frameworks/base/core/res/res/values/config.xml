@@ -151,7 +151,7 @@
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
-    <string-array name="config_overlay_locationProviderPackageNames" translatable="false">
+    <string-array name="config_locationProviderPackageNames" translatable="false">
         <item>com.google.android.location</item>
     </string-array>
 
