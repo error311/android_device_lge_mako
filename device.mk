@@ -21,6 +21,12 @@
 
 DEVICE_PACKAGE_OVERLAYS := device/lge/mako/overlay
 
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += device/lge/mako/overlay_pkg/common
+
+# Common dictionaries
+PRODUCT_PACKAGE_OVERLAYS += device/lge/mako/overlay_pkg/dictionaries
+
 # This device is xhdpi.  However the platform doesn't
 # currently contain all of the bitmaps at xhdpi density so
 # we do this little trick to fall back to the hdpi version
