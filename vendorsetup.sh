@@ -15,3 +15,5 @@
 #
 
 add_lunch_combo full_mako-userdebug
+add_lunch_combo showp1984_emulator-eng
+add_lunch_combo showp1984_mako-user

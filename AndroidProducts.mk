@@ -16,4 +16,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_mako.mk \
-    $(LOCAL_DIR)/full_mako.mk
+    $(LOCAL_DIR)/full_mako.mk \
+    $(LOCAL_DIR)/showp1984_emulator.mk \
+    $(LOCAL_DIR)/showp1984_mako.mk
